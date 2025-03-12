@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="PersonalWebsite.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Header -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h2>Navigate</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I'm</h3>
+            <h1>Sami</h1>
+            <p>A passionate frontend developer with expertise in creating responsive, user-friendly web applications. I specialize in modern JavaScript frameworks and delivering exceptional user experiences.</p>
+            <div class="btn-box">
+                <a href="#contact" class="btn">Hire Me</a>
+                <a href="#contact" class="btn">Let's Talk</a>
+            </div>
+        </div>
+
+        <div class="home-sci">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+
+        <div class="home-imgHover"></div>
+    </section>
+
+    <!-- Hover Effect Container -->
+    <div class="hover-effect"></div>
+
+    <!-- About Section -->
+    <section class="about reveal" id="about">
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            
+            <div class="about-img"></div>
+            
+            <div class="about-text">
+                <h3>Frontend Developer</h3>
+                <p>I am a skilled frontend developer with 5 years of experience in building modern web applications. My journey in web development started with a fascination for creating interactive user interfaces and has evolved into a passion for crafting seamless digital experiences.</p>
+            </div>
+            
+            <div class="skills">
+                <h3>My Skills</h3>
+                <div class="skill-container">
+                    <div class="skill-box">
+                        <span>HTML</span>
+                        <div class="progress-bar">
+                            <span style="width: 95%"></span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-box">
+                        <span>CSS</span>
+                        <div class="progress-bar">
+                            <span style="width: 90%"></span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-box">
+                        <span>JavaScript</span>
+                        <div class="progress-bar">
+                            <span style="width: 85%"></span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-box">
+                        <span>React</span>
+                        <div class="progress-bar">
+                            <span style="width: 80%"></span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-box">
+                        <span>Node.js</span>
+                        <div class="progress-bar">
+                            <span style="width: 70%"></span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-box">
+                        <span>UI/UX Design</span>
+                        <div class="progress-bar">
+                            <span style="width: 75%"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services reveal" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fas fa-code"></i>
+                <h3>Web Development</h3>
+                <p>Creating responsive and modern websites with clean code and optimal performance for various devices and browsers.</p>
+            </div>
+            
+            <div class="services-box">
+                <i class="fas fa-paint-brush"></i>
+                <h3>UI/UX Design</h3>
+                <p>Designing intuitive and visually appealing user interfaces that enhance user experience and engagement.</p>
+            </div>
+            
+            <div class="services-box">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Responsive Design</h3>
+                <p>Building websites that adapt seamlessly to various screen sizes and devices for optimal user experience.</p>
+            </div>
+            
+            <div class="services-box">
+                <i class="fas fa-server"></i>
+                <h3>API Integration</h3>
+                <p>Connecting your website with third-party services and APIs to enhance functionality and features.</p>
+            </div>
+            
+            <div class="services-box">
+                <i class="fas fa-rocket"></i>
+                <h3>Performance Optimization</h3>
+                <p>Improving website speed and performance to ensure fast loading times and smooth user experience.</p>
+            </div>
+            
+            <div class="services-box">
+                <i class="fas fa-search"></i>
+                <h3>SEO Optimization</h3>
+                <p>Implementing best practices to improve search engine rankings and visibility for your website.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio reveal" id="portfolio">
+        <h2 class="heading">My <span>Projects</span></h2>
+        
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <div class="portfolio-layer">
+                    <h4>E-commerce Website</h4>
+                    <p>A full-featured online store with product catalog, cart, and checkout functionality.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            
+            <div class="portfolio-box">
+                <div class="portfolio-layer">
+                    <h4>Portfolio Template</h4>
+                    <p>A customizable portfolio template for creative professionals to showcase their work.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            
+            <div class="portfolio-box">
+                <div class="portfolio-layer">
+                    <h4>Task Management App</h4>
+                    <p>A web application for managing tasks with drag-and-drop functionality and user authentication.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            
+            <div class="portfolio-box">
+                <div class="portfolio-layer">
+                    <h4>Weather Dashboard</h4>
+                    <p>A weather forecast application with location search and detailed weather information.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            
+            <div class="portfolio-box">
+                <div class="portfolio-layer">
+                    <h4>Recipe Finder</h4>
+                    <p>An application to search and filter recipes based on ingredients and dietary preferences.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            
+            <div class="portfolio-box">
+                <div class="portfolio-layer">
+                    <h4>News Aggregator</h4>
+                    <p>A platform that collects and displays news articles from various sources with filtering options.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact reveal" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        
+        <form action="https://api.web3forms.com/submit" method="POST">
+
+        
+            <input class="input-box" type="text" name="name" placeholder="Your Name" required>
+            <input type="email" class="input-box" name="email" placeholder="Your Email" required>
+            <textarea name="message" class="input-box" placeholder="Your Message" required></textarea>
+            <input type="hidden" name="redirect" value="https://web3forms.com/success">
+            <button type="submit">Submit Form</button>
+            <input type="hidden" name="apikey" value="4208f7c8-4df4-4169-905a-04cf110c8488">
+        </form>
+        
+        <div class="contact-info">
+            <div class="contact-card">
+                <i class="fas fa-envelope"></i>
+                <h3>Email</h3>
+                <p>turunensamibusiness@gmail.com</p>
+            </div>
+            
+            
+            <div class="contact-card">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3>Location</h3>
+                <p>Finland</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>&copy; 2025 | All Rights Reserved</p>
+            <div class="effh-effect"></div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Scroll Reveal Animation
+        window.addEventListener('scroll', function() {
+            const reveals = document.querySelectorAll('.reveal');
+            
+            for (let i = 0; i < reveals.length; i++) {
+                const windowHeight = window.innerHeight;
+                const revealTop = reveals[i].getBoundingClientRect().top;
+                const revealPoint = 150;
+                
+                if (revealTop < windowHeight - revealPoint) {
+                    reveals[i].classList.add('active');
+                }
+            }
+        });
+    
+        // Custom Cursor
+        const cursor = document.querySelector('.cursor');
+        const cursorFollower = document.querySelector('.cursor-follower');
+        const hoverEffect = document.querySelector('.hover-effect');
+        
+        document.addEventListener('mousemove', function(e) {
+            cursor.style.left = e.clientX + 'px';
+            cursor.style.top = e.clientY + 'px';
+            
+            setTimeout(function() {
+                cursorFollower.style.left = e.clientX + 'px';
+                cursorFollower.style.top = e.clientY + 'px';
+            }, 100);
+            
+            // Show hover effect on certain elements
+            const hoverElements = document.querySelectorAll('a, button, .services-box, .portfolio-box');
+            
+            hoverElements.forEach(element => {
+                element.addEventListener('mouseenter', function() {
+                    cursor.style.transform = 'translate(-50%, -50%) scale(1.5)';
+                    cursorFollower.style.transform = 'translate(-50%, -50%) scale(2)';
+                    
+                    hoverEffect.style.left = e.clientX + 'px';
+                    hoverEffect.style.top = e.clientY + 'px';
+                    hoverEffect.style.opacity = '1';
+                });
+                
+                element.addEventListener('mouseleave', function() {
+                    cursor.style.transform = 'translate(-50%, -50%) scale(1)';
+                    cursorFollower.style.transform = 'translate(-50%, -50%) scale(1)';
+                    hoverEffect.style.opacity = '0';
+                });
+            });
+        });
+        
+        // Active Navigation on Scroll
+        const sections = document.querySelectorAll('section');
+        const navLinks = document.querySelectorAll('header nav a');
+        
+        window.addEventListener('scroll', function() {
+            let current = '';
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                
+                if (pageYOffset >= sectionTop - sectionHeight / 3) {
+                    current = section.getAttribute('id');
+                }
+            });
+            
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').substring(1) === current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+        
+        // Mobile Navigation
+        document.addEventListener('DOMContentLoaded', function() {
+            // Check if menu icon exists
+            const menuIcon = document.querySelector('#menu-icon');
+            const navbar = document.querySelector('.navbar');
+            
+            if (menuIcon) {
+                menuIcon.addEventListener('click', function() {
+                    menuIcon.classList.toggle('bx-x');
+                    navbar.classList.toggle('active');
+                });
+            }
+            
+            // Hide menu when clicking a nav link
+            const navLinks = document.querySelectorAll('.navbar a');
+            
+            navLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    if (menuIcon) {
+                        menuIcon.classList.remove('bx-x');
+                    }
+                    navbar.classList.remove('active');
+                });
+            });
+        });
+    
+        // Initialize EmailJS with your user ID
+        const form = document.getElementById('form');
+const result = document.getElementById('result');
+
+form.addEventListener('submit', function(e) {
+  e.preventDefault();
+  const formData = new FormData(form);
+  const object = Object.fromEntries(formData);
+  const json = JSON.stringify(object);
+  result.innerHTML = "Please wait...";
+
+  fetch('https://api.web3forms.com/submit', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'Accept': 'application/json'
+    },
+    body: json
+  })
+  .then(async (response) => {
+    let json = await response.json();
+    if (response.status == 200) {
+      result.innerHTML = "Form submitted successfully";
+    } else {
+      console.log(response);
+      result.innerHTML = json.message;
+    }
+  })
+  .catch(error => {
+    console.log(error);
+    result.innerHTML = "Something went wrong!";
+  })
+  .then(function() {
+    form.reset();
+    setTimeout(() => {
+      result.style.display = "none";
+    }, 3000);
+  });
+});
+    </script>    
+</body>
+</html>
