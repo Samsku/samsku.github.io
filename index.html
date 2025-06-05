@@ -5,18 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Sami's portfolio showcasing frontend development projects and skills.">
     <meta name="keywords" content="Frontend Developer, JavaScript, HTML, CSS, Python, Portfolio, Sami">
+    <meta name="author" content="Sami">
     <title>Sami • Software Developer</title>
     <style>
-        :root {
-            --primary: #7000FF;
-            --secondary: #00E0FF;
-            --dark: #0A0A0A;
-            --light: #FAFAFA;
-            --gray: #717171;
-            --card-bg: #11111F;
-            --gradient: linear-gradient(135deg, var(--primary), var(--secondary));
-            --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-        }
+        /*make sure that the colors are good contrast WCAG 2.1*/
+    :root {
+        --primary: #8A2EFF;       /* Deeper purple for better contrast on dark backgrounds */
+        --secondary: #00C4CC;     /* Darker cyan for contrast without losing vibrancy */
+        --dark: #0A0A0A;          /* Base dark background */
+        --light: #FAFAFA;         /* Near white for light text */
+        --gray: #B0B0B0;          /* Lighter gray for readability on dark backgrounds */
+        --card-bg: #141425;       /* Slightly lighter than original to separate layers */
+        --gradient: linear-gradient(135deg, var(--primary), var(--secondary));
+        --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    }
+
 
         * {
             margin: 0;
@@ -50,8 +53,8 @@
         }
 
         header.scrolled {
-            background-color: rgba(10, 10, 10, 0.8);
-            box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.3);
+            background-color: var(--dark);
+            box-shadow: 0 10px 30px -10px var(--gradient);
         }
 
         nav {
@@ -115,7 +118,7 @@
             width: 500px;
             height: 500px;
             border-radius: 50%;
-            background: radial-gradient(circle, rgba(112, 0, 255, 0.2) 0%, rgba(10, 10, 10, 0) 70%);
+            background: radial-gradient(circle, var(--gradient) 0%, var(--dark) 70%);
             z-index: -1;
         }
 
